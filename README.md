@@ -1,6 +1,7 @@
 # Salas
 
 hola paula
+como estas?
 
 ## Getting started
 
