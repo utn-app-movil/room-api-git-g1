@@ -1,9 +1,7 @@
 # Salas
 
-# Primer cambio
-
-# Cambio numero 2
-
+hi
+# follow m,e in git https://www.github.com/kelunie <3
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
