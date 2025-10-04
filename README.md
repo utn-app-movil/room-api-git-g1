@@ -1,6 +1,16 @@
+## Descripcción
+
+En este trabajo en clase aprendimos a utilizar comandos de github, con el fin de llevar un control de versiones en el proyecto o proyectos del curso.
+
 # Salas
 
+
 Nuevotexto
+
+Hola
+
+Soy Marco
+
 
 ## Getting started
 
