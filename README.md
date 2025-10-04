@@ -1,6 +1,6 @@
 # Salas
 
-
+Ejemplo de ramas con Git.
 
 ## Getting started
 
