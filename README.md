@@ -1,6 +1,7 @@
 # Salas
 
 Nuevotexto
+otro texto
 
 ## Getting started
 
