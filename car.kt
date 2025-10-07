@@ -17,5 +17,6 @@ class Car: IVehicle{
 fun main() {
     val car = Car()
 
+
     car.accelerate(30)
 }
