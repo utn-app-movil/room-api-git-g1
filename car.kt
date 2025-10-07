@@ -20,5 +20,6 @@ class Car : IVehicle {
 }
 
 fun main() {
-
+    val carrito = Car("encendido", 0)
+    carrito.start_engine()
 }
