@@ -6,5 +6,16 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
-  
+  var currentAcceleration = 0
+
+  override fun accelerate(newAcceleration: Int){
+    currentAcceleration+=newAcceleration
+    println("The current acceleration is $currentAcceleration")
+  }
+}
+
+fun main() {
+    val car = Car()
+
+    car.accelerate(30)
 }
