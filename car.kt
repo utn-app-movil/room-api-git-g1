@@ -6,5 +6,8 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
-  
+  fun brake() {
+    println("The vehicle is stopped and the acceleration is 0.")
+}
+
 }
