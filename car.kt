@@ -1,10 +1,29 @@
-interface IVehicle{  
-  fun start_engine() //print a message the vehicle was started and the acceleration is 0
-  fun accelerate(acceleration: Int) //print a message the current acceleration of the vehicle, you need to sum the new acceleration
-  fun brake() //print a message the vehicle is stopped and the acceleration is 0
-  fun turn_off_engine() //print a message the vehicle was turned off with acceleration = 0
+//Este es el primer método
+
+interface IVehicle {
+    fun start_engine()
 }
 
+ marcotarea1
+class Car : IVehicle {
+    private var encender: String = ""
+    private var aceleracion: Int = 0
+
+    constructor(encender: String, aceleracion: Int) {
+        this.encender = encender
+        this.aceleracion = aceleracion
+    }
+
+    override fun start_engine() {
+        println("El carro se está encendiendo...")
+        println("El carro está $encender y la aceleración es $aceleracion")
+    }
+}
+
+fun main() {
+    val carrito = Car("encendido", 0)
+    carrito.start_engine()
+=======
 class Car: IVehicle{
   var currentAcceleration = 0
 
@@ -19,4 +38,5 @@ fun main() {
 
 
     car.accelerate(30)
+ dev1
 }
