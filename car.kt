@@ -4,6 +4,7 @@ interface IVehicle {
     fun start_engine()
 }
 
+ marcotarea1
 class Car : IVehicle {
     private var encender: String = ""
     private var aceleracion: Int = 0
@@ -22,4 +23,20 @@ class Car : IVehicle {
 fun main() {
     val carrito = Car("encendido", 0)
     carrito.start_engine()
+=======
+class Car: IVehicle{
+  var currentAcceleration = 0
+
+  override fun accelerate(newAcceleration: Int){
+    currentAcceleration+=newAcceleration
+    println("The current acceleration is $currentAcceleration")
+  }
+}
+
+fun main() {
+    val car = Car()
+
+
+    car.accelerate(30)
+ dev1
 }
