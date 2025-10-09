@@ -30,8 +30,20 @@ class Car: IVehicle{
     println("the vehicle is stopped and the acceleration is $acceleration")
   }
 
-  // *name* does the turn_off_engine function
-  overrride fun turn_off_engine(){
-    
+  // Luis Alejandro does the turn_off_engine function
+  overrride fun turn_off_engine() {
+    acceleration = 0
+    println("The vehicle was turned off with acceleration = $acceleration km/hr")
   }
 }
+
+// Main function to test the Car class
+fun main() {
+  val theCar = Car()
+  theCar.start_engine()
+  theCar.accelerate(20)
+  theCar.accelerate(35)
+  theCar.brake()
+  theCar.turn_off_engine()
+}
+
