@@ -1,5 +1,3 @@
-import java.sql.DriverManager.println
-
 interface IVehicle{
   fun start_engine() //print a message the vehicle was started and the acceleration is 0
   fun accelerate(acceleration: Int) //print a message the current acceleration of the vehicle, you need to sum the new acceleration
@@ -11,26 +9,37 @@ class Car: IVehicle{
   var acceleration: Int = 0
 
   // Caleb does the start?start_engine function
-  overrride fun start_engine(){
+  override fun start_engine(){
     acceleration = 0
     println("The vehicle was started and the acceleration is $acceleration")
   }
 
-  // *name* does the accelerate function
-  overrride fun accelerate(){
-    for (i in 1..120){
-      acceleration = i
-      println("The vehicle is at: $acceleration km/hr")
-    }
+  // Samiel does the accelerate function
+  override fun accelerate(acceleration: Int){
+      var accel += acceleration
+      println("The vehicle is at: $accel km/hr")
   }
 
-  // *name* does the brake function
-  overrride fun brake(){
-    
+  // Dylan does the brake function
+  override fun brake(){
+    acceleration = 0
+    println("the vehicle is stopped and the acceleration is $acceleration")
   }
 
-  // *name* does the turn_off_engine function
-  overrride fun turn_off_engine(){
-    
+  // Luis Alejandro does the turn_off_engine function
+  override fun turn_off_engine() {
+    acceleration = 0
+    println("The vehicle was turned off with acceleration = $acceleration km/hr")
   }
 }
+
+// Main function to test the Car class
+fun main() {
+  val theCar = Car()
+  theCar.start_engine()
+  theCar.accelerate(20)
+  theCar.accelerate(35)
+  theCar.brake()
+  theCar.turn_off_engine()
+}
+
