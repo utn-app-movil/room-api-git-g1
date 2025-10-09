@@ -24,9 +24,10 @@ class Car: IVehicle{
     }
   }
 
-  // *name* does the brake function
+  // Dylan does the brake function
   overrride fun brake(){
-    
+    acceleration = 0
+    println("the vehicle is stopped and the acceleration is $acceleration")
   }
 
   // *name* does the turn_off_engine function
