@@ -10,9 +10,6 @@ class Car(
   private var engineIsOn : Boolean = false
 ): IVehicle{
 
-
-
-
   //Implements the start engine from IVehicle
   override fun start_engine(){
     if (!engineIsOn){
@@ -22,7 +19,6 @@ class Car(
     } else {
       println("Vehicle is already on")
     }
-
   }
 
   override fun accelerate(acceleration: Int) {
@@ -35,4 +31,32 @@ class Car(
     }
   }
 
+  override fun brake() {
+    if (engineIsOn) {
+      acceleration = 0
+      println("Vehicle is stopped and the acceleration is 0")
+    } else {
+      println("You can't brake, the engine is off")
+    }
+  }
+
+  override fun turn_off_engine() {
+    if (engineIsOn) {
+      acceleration = 0
+      engineIsOn = false
+      println("Vehicle was turned off with acceleration = 0")
+    } else {
+      println("Vehicle is already off")
+    }
+  }
+
+}
+
+fun main() {
+  val car = Car()
+  car.start_engine()
+  car.accelerate(20)
+  car.accelerate(15)
+  car.brake()
+  car.turn_off_engine()
 }
