@@ -1,6 +1,20 @@
 # Salas
 
+Nnuevottexto
+mastexto
 
+Ejemplo de ramas con Git.
+Otro cambio.
+
+Xd
+XD
+
+-- Alfredo Ingreso Nuevo Texto !!
+-- Deyfran new text--
+
+Nidia Terea 1 
+
+Yadrick Aguirre -- Tarea1
 
 ## Getting started
 
