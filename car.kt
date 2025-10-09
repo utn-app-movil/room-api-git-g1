@@ -6,5 +6,26 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
-  
+  var acceleration: Int = 0
+
+  // Caleb does the start?start_engine function
+  overrride fun start_engine(){
+    acceleration = 0
+    println("The vehicle was started and the acceleration is $acceleration")
+  }
+
+  // *name* does the accelerate function
+  overrride fun accelerate(){
+
+  }
+
+  // *name* does the brake function
+  overrride fun brake(){
+    
+  }
+
+  // *name* does the turn_off_engine function
+  overrride fun turn_off_engine(){
+    
+  }
 }
