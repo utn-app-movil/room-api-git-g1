@@ -15,11 +15,9 @@ class Car: IVehicle{
   }
 
   // Samiel does the accelerate function
-  override fun accelerate(){
-    for (i in 1..120){
-      acceleration = i
+  override fun accelerate(acceleration: Int){
+      this.acceleration += acceleration
       println("The vehicle is at: $acceleration km/hr")
-    }
   }
 
   // Dylan does the brake function
