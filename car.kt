@@ -25,12 +25,10 @@ fun main() {
     carrito.start_engine()
 =======
 class Car: IVehicle{
-  var currentAcceleration = 0
+  fun brake() {
+    println("The vehicle is stopped and the acceleration is 0.")
+}
 
-  override fun accelerate(newAcceleration: Int){
-    currentAcceleration+=newAcceleration
-    println("The current acceleration is $currentAcceleration")
-  }
 }
 
 fun main() {
