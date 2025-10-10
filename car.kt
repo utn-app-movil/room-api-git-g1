@@ -2,6 +2,7 @@
 
 interface IVehicle {
     fun start_engine()
+    fun turn_off_engine()
 }
 
  marcotarea1
@@ -18,11 +19,21 @@ class Car : IVehicle {
         println("El carro se está encendiendo...")
         println("El carro está $encender y la aceleración es $aceleracion")
     }
+
+    override fun turn_off_engine(){
+        this.aceleracion = 0
+        this.encender = "apagado"
+        println("El carro se está apagando...")
+        println("El carro esta $encender con aceleracion de %aceleracion")
+        
+    }
 }
 
 fun main() {
     val carrito = Car("encendido", 0)
     carrito.start_engine()
+    carrito.turn_off_engine()
+}
 =======
 class Car: IVehicle{
   fun brake() {
