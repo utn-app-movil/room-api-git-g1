@@ -6,5 +6,15 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
+
+ private var acceleration = 0
+    private var engineOn = false
+
+    override fun start_engine() {
+        engineOn = true
+        acceleration = 0
+        println("El motor fue encendido. Aceleración = $acceleration")
+    }
+
   
 }
