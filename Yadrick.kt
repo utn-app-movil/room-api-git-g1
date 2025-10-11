@@ -2,7 +2,7 @@ interface IVehicle {
     fun start_engine()  // imprime que el vehículo fue encendido y aceleración = 0
     fun accelerate(acceleration: Int)  // imprime la aceleración actual
     fun brake()  // imprime que el vehículo se detuvo
-    fun turn_off_engine()  // imprime que el vehículo fue apagado
+    fun turn_off_engine()  // imprime que el vehículo es apagado
 }
 
 class Car : IVehicle {
