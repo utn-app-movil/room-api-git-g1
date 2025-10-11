@@ -3,6 +3,7 @@
 Nnuevottexto
 mastexto
 
+
 Ejemplo de ramas con Git.
 Otro cambio.
 
@@ -14,7 +15,13 @@ XD
 
 Nidia Terea 1 
 
-Yadrick Aguirre -- Tarea1
+Yadrick Aguirre -- Tarea1s
+
+hola paula
+como estas?
+mariatqm<3
+
+
 
 ## Getting started
 
