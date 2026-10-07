@@ -24,5 +24,10 @@ class Vehicle : IVehicle {
     println("The vehicle is stopped and the acceleration is $currentAcceleration")
   }
 
+
+  override fun turn_off_engine() {
+    velocidadActual = 0
+    println("El vehículo fue apagado con la aceleración de: $velocidadActual")
+  }
 }
 
