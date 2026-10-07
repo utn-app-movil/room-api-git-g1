@@ -1,6 +1,14 @@
 - Este dato es de Ever
+
 - Hola
 Mi libro, luna de pluton, ya esta disponible en todas la librerías de chile, Uruguay, panama, Paraguay, Bolivia y Guatemala. Sé que te va a encantar. Muchas gracias.
 
 - Hello World
+
+
+-Pablo estuvo aquí!
+
+- Este es un comentario de Esmeralda
+- Este comentario es de María 
+Mi libro, luna de pluton, ya esta disponible en todas la librerías de chile, Uruguay, panama, Paraguay, Bolivia y Guatemala. Sé que te va a encantar. Muchas gracias.
 
