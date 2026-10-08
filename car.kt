@@ -9,13 +9,23 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
+
+    //fun Maria
+    var aceleracionActual = 0
+
+    override fun accelerate(acceleration: Int) {
+        aceleracionActual = aceleracionActual + acceleration
+        println("La aceleracion actual del vehiculo es: $aceleracionActual")
+    }
+  
+
   //fun by Yul
   override fun refuel(amount: Int) {
     println("The vehicle was refueled with $amount liters of fuel.")
   }
 
   override fun start_engine() {}
-  override fun accelerate(acceleration: Int) {}
   override fun brake() {}
   override fun turn_off_engine() {}
+
 }
