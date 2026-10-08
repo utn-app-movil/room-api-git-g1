@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c48c5308-a6ab-4b28-a61f-687211e96fe7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Texto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Texto.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/car.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "Merging esmeralda",
+    "git-widget-placeholder": "esmeralda",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/madmu/Downloads/Trabajo en clases 1 - Moviles/room-api-git-g1",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
