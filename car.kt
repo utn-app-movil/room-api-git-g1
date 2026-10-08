@@ -6,5 +6,13 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
+
+    //fun Maria
+    var aceleracionActual = 0
+
+    override fun accelerate(acceleration: Int) {
+        aceleracionActual = aceleracionActual + acceleration
+        println("La aceleracion actual del vehiculo es: $aceleracionActual")
+    }
   
 }
