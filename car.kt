@@ -6,5 +6,12 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
-  
+
+  private var currentAcceleration: Int = 0
+
+    override fun brake() {
+        this.currentAcceleration = 0
+        println("The vehicle is stopped and the acceleration is 0")
+    }
+
 }
