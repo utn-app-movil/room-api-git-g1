@@ -17,7 +17,7 @@ class Car: IVehicle{
         aceleracionActual = aceleracionActual + acceleration
         println("La aceleracion actual del vehiculo es: $aceleracionActual")
     }
-  
+
 
   //fun by Yul
   override fun refuel(amount: Int) {
@@ -25,7 +25,13 @@ class Car: IVehicle{
   }
 
   override fun start_engine() {}
-  override fun brake() {}
+
+    override fun brake() {
+        aceleracionActual = 0
+        println("The vehicle is stopped and the acceleration is 0.")
+    }
+
+
   override fun turn_off_engine() {}
 
 }
