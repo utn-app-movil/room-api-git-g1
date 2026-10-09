@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="jbr-25" project-jdk-type="JavaSDK">
-=======
   <component name="DeviceStreaming">
     <option name="deviceSelectionList">
       <list>
@@ -194,18 +191,6 @@
           <option name="labId" value="google" />
           <option name="manufacturer" value="TECNO" />
           <option name="name" value="POP 7" />
-          <option name="screenDensity" value="320" />
-          <option name="screenX" value="720" />
-          <option name="screenY" value="1612" />
-        </PersistentDeviceSelectionData>
-        <PersistentDeviceSelectionData>
-          <option name="api" value="31" />
-          <option name="brand" value="TECNO" />
-          <option name="codename" value="TECNO-BF7" />
-          <option name="id" value="TECNO-BF7" />
-          <option name="labId" value="google" />
-          <option name="manufacturer" value="TECNO" />
-          <option name="name" value="TECNO" />
           <option name="screenDensity" value="320" />
           <option name="screenX" value="720" />
           <option name="screenY" value="1612" />
@@ -2384,9 +2369,5 @@
         </PersistentDeviceSelectionData>
       </list>
     </option>
-  </component>
-  <component name="ProjectRootManager" version="2">
->>>>>>> origin/dev1
-    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

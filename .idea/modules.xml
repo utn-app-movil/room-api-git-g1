@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/Moviles_T.iml" filepath="$PROJECT_DIR$/Moviles_T.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/room-api-git-g1.iml" filepath="$PROJECT_DIR$/room-api-git-g1.iml" />
+>>>>>>> origin/dev1
     </modules>
   </component>
 </project>
