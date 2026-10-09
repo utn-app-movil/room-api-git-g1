@@ -13,5 +13,15 @@ class Car: IVehicle{
         currentAcceleration = 0
         println("El vehículo fue encendido. Aceleración actual: $currentAcceleration")
     }
+
+    override fun brake() {
+        currentAcceleration = 0
+        println("El vehículo se detuvo. Aceleración actual: $currentAcceleration")
+    }
+
+    override fun turn_off_engine() {
+        currentAcceleration = 0
+        println("El vehículo fue apagado. Aceleración = $currentAcceleration")
+    }
   
 }
