@@ -33,6 +33,9 @@ class Car: IVehicle{
     }
 
     //fun Kristel
-    override fun turn_off_engine() {}
+    override fun turn_off_engine() {
+        aceleracionActual = 0
+        println("The vehicle was turned off and the acceleration is 0.")
+    }
 
 }

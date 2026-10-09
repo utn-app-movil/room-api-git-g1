@@ -1,4 +1,8 @@
 - Este dato es de Ever
+<<<<<<< HEAD
+Holaa soy Krisss
+=======
 -Este comentario es de Esmeralda
 - Este comentario es de María 
 Mi libro, luna de pluton, ya esta disponible en todas la librerías de chile, Uruguay, panama, Paraguay, Bolivia y Guatemala. Sé que te va a encantar. Muchas gracias.
+>>>>>>> origin/dev4
