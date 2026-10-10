@@ -14,17 +14,18 @@ class Vehicle : IVehicle {
     println("The vehicle was started, the aceleration is: $currentAceleration")
   }
 
+  //Método de acelerar el carro
   override fun accelerate(acceleration: Int) {
     currentAceleration += aceleration
     println("The current acceleration is $currentAceleration")
   }
-
+  //Método de frenar el carro
   override fun brake() {
     currentAcceleration = 0
     println("The vehicle is stopped and the acceleration is $currentAcceleration")
   }
 
-
+  //Método de apagar el carro
   override fun turn_off_engine() {
     velocidadActual = 0
     println("El vehículo fue apagado con la aceleración de: $velocidadActual")
