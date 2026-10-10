@@ -6,5 +6,8 @@ interface IVehicle{
 }
 
 class Car: IVehicle{
+  override fun turn_off_engine() {
+    println("The vehicle was turned off with acceleration = 0")
+  }
   
 }
